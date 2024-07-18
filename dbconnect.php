@@ -1,8 +1,8 @@
 <?php
 $dbhost="localhost";
-$dbname="s4";
-$dbuser="s4user";
-$dbpass="6Pikteam";
+$dbname="name";
+$dbuser="ユーザー名";
+$dbpass="パスワード";
 
 try {
 	$dbcon=new PDO("mysql:host=$dbhost;dbname=$dbname", $dbuser, $dbpass);
